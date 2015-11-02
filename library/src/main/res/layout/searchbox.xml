@@ -106,7 +106,7 @@
                 android:layout_alignParentRight="true"
                 android:layout_alignParentTop="true"
                 android:layout_toLeftOf="@+id/mic"
-                android:layout_marginRight="13dp"/>
+                android:layout_marginRight="35dp"/>
 
             <ImageView
                 android:id="@+id/drawer_logo"

@@ -634,6 +634,11 @@ public class SearchBox extends RelativeLayout {
 	public void setSearchString(String text) {
 		search.setText("");
 		search.append(text);
+		if(text == null || text.isEmpty()) {
+			logo.setText(logoText);
+		}else{
+			logo.setText(text);
+		}
 	}
 	
 	/***
