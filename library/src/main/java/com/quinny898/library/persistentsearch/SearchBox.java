@@ -950,7 +950,7 @@ public class SearchBox extends RelativeLayout {
     @Override
     public boolean dispatchKeyEvent(KeyEvent e) {
         if(e.getKeyCode() == KeyEvent.KEYCODE_BACK && getVisibility() == View.VISIBLE){
-            hideCircularly((Activity) getContext());
+            //hideCircularly((Activity) getContext());
             return true;
         }
 
